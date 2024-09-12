@@ -55,7 +55,6 @@ header p{
     margin-top: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .minor-text{
     width: 550px;
@@ -76,12 +75,37 @@ header p{
     border: 2px solid #3882f6;
 }
 section{
-    margin: auto 0;
+    margin: auto;
     max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 .A-section{
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
+}
+#info{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    /* margin: 10px auto; */
+    text-align: center;
+    flex: 0 1 0;
+}
+.card img{
+    width: 240px;
+    height: 100px;
 }
