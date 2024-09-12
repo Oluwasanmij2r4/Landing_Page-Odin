@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+header, footer{
+    background-color: #1f2937;
+}
+.top-header{
+    display: flex;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    font-size: 18px;
+    gap: 15px;
+    color: #e5e7eb;
+}
+.top-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px solid #1f2937;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    max-width: 80%;
+}
+header h3{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+header p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+.low-header{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.minor-text{
+    width: 550px;
+    height: 200px;
+    background-image: url(image/Pressing.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 200px;
+    flex: 0 1 550px;
+}
+.main-text{
+    flex: 0 1 400px;
+}
+.btn{
+    margin: 1em 0;
+    padding: .5em;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+}
+section{
+    margin: auto 0;
+    max-width: 80%;
+}
+.A-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 10px auto; */
+}
