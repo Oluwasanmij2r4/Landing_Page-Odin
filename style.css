@@ -76,7 +76,6 @@ header p{
 }
 section{
     margin: auto;
-    max-width: 80%;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -84,7 +83,8 @@ section{
 .A-section{
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 80%;
 }
 #info{
     font-size: 36px;
@@ -109,3 +109,21 @@ section{
     width: 240px;
     height: 100px;
 }
+
+.B-section{
+    background-color: #e5e7eb;
+    padding: 100px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+.body{
+    max-width: 80%;
+    margin: auto;
+}
+.body h5{
+    text-align: right;
+    margin: 0;
+}
+
