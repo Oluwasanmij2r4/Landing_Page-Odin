@@ -112,7 +112,7 @@ section{
 
 .B-section{
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 80px;
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
@@ -126,4 +126,40 @@ section{
     text-align: right;
     margin: 0;
 }
-
+.C-section{
+    background-color: #3882f6;
+    font-size: 36px;
+    color: #ffffff;
+    font-size: 15px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    border:2px solid #3882f6;
+    border-radius: 10px;
+}
+.C-section h4, p{
+    margin: 0;
+    padding: 0px;
+}
+.cta-text{
+    flex: 1 0 150px;
+}
+button{
+    flex: 0 1 120px;
+    max-height: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #e5e7eb;
+}
